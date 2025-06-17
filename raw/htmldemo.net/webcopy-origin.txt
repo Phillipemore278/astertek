@@ -1,0 +1,1236 @@
+Uri: https://fonts.bunny.net/css?family=Rubik:300,400,500
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\css-1
+Content Type: text/css
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-arabic-300-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-arabic-300-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-arabic-300-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-arabic-300-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-arabic-400-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-arabic-400-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-arabic-400-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-arabic-400-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-arabic-500-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-arabic-500-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-arabic-500-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-arabic-500-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-300-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-300-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-300-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-300-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-400-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-400-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-400-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-400-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-500-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-500-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-500-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-500-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-ext-300-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-ext-300-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-ext-300-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-ext-300-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-ext-400-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-ext-400-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-ext-400-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-ext-400-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-ext-500-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-ext-500-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-cyrillic-ext-500-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-cyrillic-ext-500-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-hebrew-300-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-hebrew-300-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-hebrew-300-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-hebrew-300-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-hebrew-400-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-hebrew-400-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-hebrew-400-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-hebrew-400-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-hebrew-500-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-hebrew-500-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-hebrew-500-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-hebrew-500-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-300-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-300-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-300-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-300-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-400-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-400-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-400-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-400-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-500-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-500-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-500-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-500-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-ext-300-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-ext-300-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-ext-300-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-ext-300-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-ext-400-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-ext-400-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-ext-400-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-ext-400-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-ext-500-normal.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-ext-500-normal.woff
+Content Type: font/woff
+
+Uri: https://fonts.bunny.net/rubik/files/rubik-latin-ext-500-normal.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\rubik\files\rubik-latin-ext-500-normal.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/rubik/v30/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE3U3f4c.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\s\rubik\v30\iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE3U3f4c.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v30/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE3U3f4c.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\s\rubik\v30\iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE3U3f4c.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v30/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE3U3f4c.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\s\rubik\v30\iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE3U3f4c.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v30/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FHU3f4c.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\s\rubik\v30\iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FHU3f4c.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v30/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8v0FHU3f4c.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\s\rubik\v30\iJWbBXyIfDnIV7nEt3KSJbVDV49rz8v0FHU3f4c.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v30/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-FV0Uw.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\s\rubik\v30\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-FV0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v30/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0Uw.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\s\rubik\v30\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v30/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYiFV0Uw.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\s\rubik\v30\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYiFV0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v30/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-FV0Uw.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\s\rubik\v30\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-FV0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v30/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYiFV0Uw.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\s\rubik\v30\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYiFV0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://htmldemo.net/cigar/cigar/404.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\404.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/about.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\about.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/assets/css/bootstrap.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://htmldemo.net/cigar/cigar/assets/css/bundle.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\css\bundle.css
+Content Type: text/css
+
+Uri: https://htmldemo.net/cigar/cigar/assets/css/images/ui-icons_469bdd_256x240.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\css\images\ui-icons_469bdd_256x240.png
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/assets/css/plugins.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\css\plugins.css
+Content Type: text/css
+
+Uri: https://htmldemo.net/cigar/cigar/assets/css/responsive.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\css\responsive.css
+Content Type: text/css
+
+Uri: https://htmldemo.net/cigar/cigar/assets/css/style.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\css\style.css
+Content Type: text/css
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/fontawesome-webfont.eot?
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\fontawesome-webfont.ttf
+Content Type: application/octet-stream
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/ionicons.eot?v=2.0.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\ionicons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/ionicons.svg?v=2.0.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\ionicons.svg
+Content Type: image/svg+xml
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/ionicons.ttf?v=2.0.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\ionicons.ttf
+Content Type: application/octet-stream
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/ionicons.woff?v=2.0.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\ionicons.woff
+Content Type: font/woff
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/Material-Design-Iconic-Font.ttf?v=2.2.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\Material-Design-Iconic-Font.ttf
+Content Type: application/octet-stream
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\Material-Design-Iconic-Font.woff2
+Content Type: font/woff2
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/Material-Design-Iconic-Font.woff?v=2.2.0
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\Material-Design-Iconic-Font.woff
+Content Type: font/woff
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/Pe-icon-7-stroke.eot?
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\Pe-icon-7-stroke-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/Pe-icon-7-stroke.eot?d7yf1v
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\Pe-icon-7-stroke.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/Pe-icon-7-stroke.svg?d7yf1v
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\Pe-icon-7-stroke.svg
+Content Type: image/svg+xml
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/Pe-icon-7-stroke.ttf?d7yf1v
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\Pe-icon-7-stroke.ttf
+Content Type: application/octet-stream
+
+Uri: https://htmldemo.net/cigar/cigar/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\fonts\Pe-icon-7-stroke.woff
+Content Type: font/woff
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner1.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner1.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner10.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner10.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner11.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner11.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner12.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner12.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner13.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner13.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner14.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner14.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner15.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner15.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner16.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner16.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner2.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner2.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner3.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner3.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner4.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner4.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner5.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner5.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner6.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner6.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner7.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner7.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner8.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner8.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/banner9.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\banner9.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner10.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner10.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner11.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner11.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner12.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner12.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner15.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner15.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner16.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner16.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner17.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner17.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner18.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner18.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner19.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner19.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner2.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner20.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner20.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner21.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner21.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner22.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner22.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner23.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner23.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner24.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner24.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner3.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner4.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner5.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner6.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner6.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner7.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner7.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner8.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner8.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbanner9.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbanner9.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/bgbread.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\bgbread.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/banner/coming-soon.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\banner\coming-soon.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog1.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog11.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog11.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog12.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog12.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog13.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog13.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog14.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog14.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog15.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog15.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog16.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog16.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog17.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog17.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog18.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog18.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog19.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog19.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog2.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog20.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog20.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog21.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog21.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog22.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog22.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog23.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog23.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog24.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog24.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog3.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog4.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/blog/blog5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\blog\blog5.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/brand/bra1.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\brand\bra1.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/brand/bra2.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\brand\bra2.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/brand/bra3.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\brand\bra3.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/brand/bra4.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\brand\bra4.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/brand/bra5.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\brand\bra5.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/brand/bra6.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\brand\bra6.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/brand/bra7.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\brand\bra7.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/brand/bra8.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\brand\bra8.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/cart1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\cart1.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/cart10.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\cart10.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/cart11.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\cart11.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/cart12.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\cart12.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/cart2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\cart2.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/cart5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\cart5.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/cart5.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\cart5.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/cart6.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\cart6.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/cart7.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\cart7.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/cart8.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\cart8.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/cart9.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\cart9.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/count.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\count.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/count2.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\count2.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/cart/count3.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\cart\count3.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/categorie/categorie.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\categorie\categorie.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/favicon.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\favicon.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/instagram/instagram1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\instagram\instagram1.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/instagram/instagram2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\instagram\instagram2.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/instagram/instagram3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\instagram\instagram3.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/instagram/instagram4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\instagram\instagram4.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/instagram/instagram5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\instagram\instagram5.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/instagram/instagram6.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\instagram\instagram6.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/instagram/instagram7.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\instagram\instagram7.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/instagram/instagram8.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\instagram\instagram8.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/logo/cigar.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\logo\cigar.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/logo/language.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\logo\language.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/logo/language2.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\logo\language2.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/logo/logo.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\logo\logo.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/logo/logo2.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\logo\logo2.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/logo/logo3.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\logo\logo3.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/logo/logo4.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\logo\logo4.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port1.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port10.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port10.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port11.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port11.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port12.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port12.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port2.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port3.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port4.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port5.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port6.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port6.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port7.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port7.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port8.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port8.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/portfolio/port9.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\portfolio\port9.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/bigimg1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\bigimg1.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/bigimg2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\bigimg2.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/bigimg3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\bigimg3.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/bigimg4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\bigimg4.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product1.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product10.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product10.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product11.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product11.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product12.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product12.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product13.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product13.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product14.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product14.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product15.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product15.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product16.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product16.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product17.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product17.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product18.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product18.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product19.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product19.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product2.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product20.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product20.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product21.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product21.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product22.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product22.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product23.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product23.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product24.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product24.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product25.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product25.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product26.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product26.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product27.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product27.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product28.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product28.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product29.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product29.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product3.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product30.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product30.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product31.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product31.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product32.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product32.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product33.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product33.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product34.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product34.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product35.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product35.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product36.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product36.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product37.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product37.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product38.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product38.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product39.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product39.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product4.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product40.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product40.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product41.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product41.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product42.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product42.jpg
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product44.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product44.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product45.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product45.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product46.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product46.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product47.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product47.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product48.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product48.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product49.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product49.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product5.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product50.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product50.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product51.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product51.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product52.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product52.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product53.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product53.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product54.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product54.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product55.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product55.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product56.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product56.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product57.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product57.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product58.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product58.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product59.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product59.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product6.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product6.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product60.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product60.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product61.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product61.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product62.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product62.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product63.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product63.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product64.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product64.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product65.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product65.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product66.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product66.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product67.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product67.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product68.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product68.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product7.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product7.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product8.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product8.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/product/product9.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\product\product9.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/services/service1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\services\service1.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/services/service2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\services\service2.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/services/service3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\services\service3.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/services/service4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\services\service4.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/ship/about1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\ship\about1.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/ship/about3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\ship\about3.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/slider/slider1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\slider\slider1.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/slider/slider2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\slider\slider2.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/slider/slider3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\slider\slider3.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/slider/slider4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\slider\slider4.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/slider/slider5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\slider\slider5.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/slider/slider6.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\slider\slider6.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/slider/slider7.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\slider\slider7.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/slider/slider8.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\slider\slider8.jpg
+Content Type: image/jpeg
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/visha/papyel.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\visha\papyel.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/img/visha/payment.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\img\visha\payment.png
+Content Type: image/png
+
+Uri: https://htmldemo.net/cigar/cigar/assets/js/ajax-mail.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\js\ajax-mail.js
+Content Type: application/javascript
+
+Uri: https://htmldemo.net/cigar/cigar/assets/js/bootstrap.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://htmldemo.net/cigar/cigar/assets/js/main.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\js\main.js
+Content Type: application/javascript
+
+Uri: https://htmldemo.net/cigar/cigar/assets/js/plugins.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\js\plugins.js
+Content Type: application/javascript
+
+Uri: https://htmldemo.net/cigar/cigar/assets/js/popper.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\js\popper.js
+Content Type: application/javascript
+
+Uri: https://htmldemo.net/cigar/cigar/assets/js/vendor/jquery-1.12.4.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\js\vendor\jquery-1.12.4.min.js
+Content Type: application/javascript
+
+Uri: https://htmldemo.net/cigar/cigar/assets/js/vendor/modernizr-2.8.3.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\assets\js\vendor\modernizr-2.8.3.min.js
+Content Type: application/javascript
+
+Uri: https://htmldemo.net/cigar/cigar/blog-details.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\blog-details.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/blog-fullwidth.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\blog-fullwidth.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/blog-sidebar.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\blog-sidebar.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/blog.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\blog.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/cart.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\cart.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/checkout.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\checkout.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/coming-soon.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\coming-soon.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/compare.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\compare.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/contact.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\contact.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/faq.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\faq.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/index-2.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\index-2.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/index-3.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\index-3.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/index-4.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\index-4.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/index.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\index.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/login.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\login.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/my-account.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\my-account.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/portfolio-details.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\portfolio-details.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/portfolio.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\portfolio.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/product-details.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\product-details.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/product-gallery.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\product-gallery.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/product-sidebar.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\product-sidebar.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/product-slider.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\product-slider.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/services.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\services.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/shop-fullwidth-list.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\shop-fullwidth-list.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/shop-fullwidth.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\shop-fullwidth.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/shop-list.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\shop-list.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/shop-right-sidebar-list.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\shop-right-sidebar-list.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/shop-right-sidebar.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\shop-right-sidebar.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/shop.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\shop.html
+Content Type: text/html
+
+Uri: https://htmldemo.net/cigar/cigar/wishlist.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\cigar\cigar\wishlist.html
+Content Type: text/html
+
+Uri: https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3?1
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\ecommerce\htmldemo.net\audio\mp3\TSP-01-Cro_magnon_man.mp3
+Content Type: audio/mpeg
+

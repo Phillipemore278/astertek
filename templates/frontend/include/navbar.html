@@ -1,0 +1,167 @@
+{% load static %}
+
+<!-- header area start -->
+<header class="header_area">
+    <!--header top start-->
+    <div class="header_top bg-primary ">
+        <div class="container">   
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="welcome_text">
+                        <p class="text-white">Nigeria's Fastest Online accessories Shopping Destination</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="top_right text-end">
+                        <ul>
+                           <li class="top_links "><a href="#" class="text-white">My Account <i class="ion-chevron-down"></i></a>
+                            </li> 
+                            <!-- <li class="currency "><a href="#" class="text-white">USD <i class="ion-chevron-down"></i></a>
+                                <ul class="dropdown_currency">
+                                    <li><a href="#">EUR</a></li>
+                                    <li><a href="#">BRL</a></li>
+                                </ul>
+                            </li> -->
+                            <li class="language"><a href="#" class="text-white"><img src="{% static 'frontend/assets/img/logo/language.png' %}" alt=""> English <i class="ion-chevron-down"></i></a>
+                                <ul class="dropdown_language">
+                                    <li><a href="#"><img src="{% static 'frontend/assets/img/logo/cigar.jpg' %}" alt=""> French</a></li>
+                                    <li><a href="#"><img src="{% static 'frontend/assets/img/logo/language2.png' %}" alt="">German</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header top start-->
+    
+    <!--header middel start-->
+    <div class="header_middel">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-4">
+                    <div class="logo">
+                        <a href="{% url 'frontend:home' %}"><img src="{% static 'frontend/logos/logo.svg' %}" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-5">
+                    <div class="search_bar">
+                        <form action="#">
+                            <input placeholder="Search entire store here..." type="text">
+                            <button type="submit"><i class="ion-ios-search-strong"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <div class="cart_area">
+                        <div class="wishlist_link">
+                            <a href="#"><i class="ion-ios-heart-outline"></i></a>
+                        </div>
+                        <div class="cart_link">
+                            <a href="javascript:void(0)"><i class="ion-ios-cart-outline"></i>My Cart</a>
+                            <span class="cart_count">2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header middel end-->
+    
+    <!--header bottom satrt-->
+    <div class="header_bottom sticky-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-5">
+                    <div class="categories_menu">
+                        <div class="categories_title">
+                            <h2 class="categori_toggle"> All categories</h2>
+                        </div>
+                        <div class="categories_menu_inner">
+                            <ul>
+                                {% for category in categories %}
+                                    <li class="categorie_list"><a href="#">{{ category.name }}</a>
+                                    </li>
+                                {% endfor %}
+                                <!-- <li><a href="#"> Accessories</a></li>
+                                <li><a href="#">Books & Office</a></li>
+                                <li><a href="#"> Sport & Outdoor</a></li>
+                                <li id="cat_toggle" class="has-sub"><a href="#"> More Categories</a>
+                                    <ul class="categorie_sub">
+                                        <li><a href="#"> Computer - Laptop</a></li>
+                                    </ul>   
+
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 position-relative">
+                    <div class="main_menu_inner">
+                        <div class="main_menu d-none d-lg-block"> 
+                            <ul>
+                                <li class="active"><a href="{% url 'frontend:home' %}">Home <i class="fa fa-angle-down"></i></a>
+                                </li>
+                                <li><a href="shop.html">Store <i class="fa fa-angle-down"></i></a>
+                                </li>
+                                <li><a href="#">pages <i class="fa fa-angle-down"></i></a>
+                                    <ul class="sub_menu pages">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="services.html">services</a></li>
+                                        <li><a href="faq.html">Frequently Questions</a></li>
+                                        <li><a href="login.html">login</a></li>
+                                        <li><a href="my-account.html">my account</a></li>
+                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                        <li><a href="compare.html">Compare</a></li>
+                                        <li><a href="coming-soon.html">Coming soon</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="mobile-menu d-lg-none">
+                            <nav>  
+                                <ul>
+                                <li><a href="index.html">Home</a>
+                                </li>
+                                <li><a href="shop.html">Store</a>
+                                </li>
+                                <li><a href="#">pages</a>
+                                    <ul>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="services.html">services</a></li>
+                                        <li><a href="faq.html">Frequently Questions</a></li>
+                                        <li><a href="login.html">login</a></li>
+                                        <li><a href="my-account.html">my account</a></li>
+                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                        <li><a href="404.html">Error 404</a></li>
+                                        <li><a href="compare.html">Compare</a></li>
+                                        <li><a href="coming-soon.html">Coming soon</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                            </nav>      
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-2">
+                    <div class="contact_phone">
+                        <div class="contact_icone">
+                            <span class="pe-7s-headphones"></span>
+                        </div>
+                        <div class="contact_number">
+                            <p>Call Us:</p>
+                            <span>(+234)8038485689</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header bottom end-->
+</header>
+<!--header area end-->
