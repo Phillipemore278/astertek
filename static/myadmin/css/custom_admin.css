@@ -1,0 +1,20 @@
+/* static/css/custom_admin.css */
+
+#header {
+  background: linear-gradient(to right, #06138a, #2433c2) !important;
+}
+
+#header h1 a {
+  color: #fff !important;
+}
+
+#user-tools {
+  color: #fff !important;
+}
+
+/* Optional: Sidebar module headers */
+.module caption,
+.module h2 {
+  background-color: #06138a !important;
+  color: #fff !important;
+}

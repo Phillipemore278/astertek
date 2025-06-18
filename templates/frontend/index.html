@@ -206,113 +206,45 @@
                             <div class="countdown_produtc_wrapper">
                                 <div class="single_countdown_product">
                                     <div class="countdown_product_thumb">
-                                        <a href="product-details.html"><img src="{% static 'frontend/assets/img/product/product1.jpg' %}" alt=""></a>
+                                        <a href="product-details.html"><img src="{{product.image.url}}" alt="product_image"></a>
                                         <div class="sale_percent">
-                                            <span>15%</span>
+                                            {% if product.sale_percent > 0 %}
+                                            <span>-{{ product.sale_percent }}%</span>
+                                            {% endif %}
                                         </div>
                                     </div>
                                     <div class="countdown_product_content">
                                         <div class="countdown_product_ratting">
                                             <ul>
-                                                <li><a href="#"><i class="ion-star"></i></a></li>
-                                                <li><a href="#"><i class="ion-star"></i></a></li>
-                                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
+                                                {% for i in "12345" %}
+                                                    {% if forloop.counter <= product.rating %}  
+                                                    <li><a href="#"><i class="ion-star"></i></a></li>
+                                                    {% else %}
+                                                
+                                                    <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
+                                                    {% endif %}
+                                                {% endfor %}
                                             </ul>
                                         </div>
                                         <h3><a href="product-details.html">{{product.name}}</a></h3>
                                         <div class="countdown_product_price">
-                                            <span class="old_price">{{product.price|intcomma}}</span>
-                                            <span class="current_price">{{product.price|intcomma}}</span>
+                                            <span class="old_price">&#8358;{{product.old_price|intcomma}}</span>
+                                            <span class="current_price">&#8358;{{product.price|intcomma}}</span>
                                         </div>
                                         <div class="countdown_product_desc">
-                                            <p>The Imaginext DC Super Friends Batbot Xtreme is the.</p>
+                                            <p>{{product.description|slice:":80"}}....</p>
                                         </div>
                                         <div class="product_timing">
                                         <h3>Hurry up!</h3>
                                         <p>Offer ends in:</p>
-                                            <div data-countdown="2024/12/15"></div>
+                                            <div data-countdown="2025/08/15"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             
                         </div>
-                    {% endfor %}
-                    <!-- <div class="col-12">
-                        <div class="countdown_produtc_wrapper">
-                            <div class="single_countdown_product">
-                                <div class="countdown_product_thumb">
-                                    <a href="product-details.html"><img src="{% static 'frontend/assets/img/product/product3.jpg' %}" alt=""></a>
-                                    <div class="sale_percent">
-                                        <span>15%</span>
-                                    </div>
-                                </div>
-                                <div class="countdown_product_content">
-                                    <div class="countdown_product_ratting">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">	Bonna 21 mega pixelsf</a></h3>
-                                    <div class="countdown_product_price">
-                                        <span class="old_price">$26.00</span>
-                                        <span class="current_price">$23.00</span>
-                                    </div>
-                                    <div class="countdown_product_desc">
-                                        <p>The Imaginext DC Super Friends Batbot Xtreme is the.</p>
-                                    </div>
-                                    <div class="product_timing">
-                                       <h3>Hurry up!</h3>
-                                       <p>Offer ends in:</p>
-                                        <div data-countdown="2024/12/15"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-12">
-                        <div class="countdown_produtc_wrapper">
-                            <div class="single_countdown_product">
-                                <div class="countdown_product_thumb">
-                                    <a href="product-details.html"><img src="{% static 'frontend/assets/img/product/product4.jpg' %}" alt=""></a>
-                                    <div class="sale_percent">
-                                        <span>10%</span>
-                                    </div>
-                                </div>
-                                <div class="countdown_product_content">
-                                    <div class="countdown_product_ratting">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">Mpow 059 Bluetootht</a></h3>					
-                                    <div class="countdown_product_price">
-                                        <span class="old_price">$26.00</span>
-                                        <span class="current_price">$23.00</span>
-                                    </div>
-                                    <div class="countdown_product_desc">
-                                        <p>The Imaginext DC Super Friends Batbot Xtreme is the.</p>
-                                    </div>
-                                    <div class="product_timing">
-                                       <h3>Hurry up!</h3>
-                                       <p>Offer ends in:</p>
-                                        <div data-countdown="2024/12/15"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    
+                    {% endfor %}  
                 </div>
             </div>
         </div>    

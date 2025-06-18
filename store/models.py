@@ -2,6 +2,7 @@ import uuid
 import secrets
 from django.db import models
 from django.utils.text import slugify
+from cloudinary.models import CloudinaryField
 
 
 class Category(models.Model):
@@ -66,14 +67,16 @@ class Product(models.Model):
     name = models.CharField(max_length=200)
     slug = models.SlugField(max_length=200, unique=True, blank=True)
     description = models.TextField(blank=True)
+    old_price = models.DecimalField(max_digits=10, decimal_places=2, blank=True)
     price = models.DecimalField(max_digits=10, decimal_places=2)
     category = models.ForeignKey('Category', related_name='products', on_delete=models.CASCADE)
     tags = models.ManyToManyField('Tag', blank=True, related_name='products')
     brand = models.ForeignKey('Brand', related_name='products', on_delete=models.CASCADE, null=True, blank=True)
-    # image = models.ImageField(upload_to='products/', blank=True, null=True)
+    image = CloudinaryField('image', null=True, default=None, blank=True)
     is_available = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    rating = models.IntegerField(default=0, help_text="Rate from 1 (worst) to 5 (best)")
 
     def generate_unique_slug(self):
         base_slug = slugify(self.name)
@@ -87,6 +90,14 @@ class Product(models.Model):
         if not self.slug:
             self.slug = self.generate_unique_slug()
         super().save(*args, **kwargs)
+
+
+    @property
+    def sale_percent(self):
+        if self.old_price and self.old_price > self.price:
+            discount = ((self.old_price - self.price) / self.old_price) * 100
+            return round(discount, 1)  # Rounded to 1 decimal
+        return 0
 
     def __str__(self):
         return self.name

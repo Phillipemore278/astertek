@@ -14,6 +14,9 @@ import dj_database_url
 from pathlib import Path
 from dotenv import load_dotenv
 
+# importing cloudinary
+import cloudinary
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -41,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'cloudinary',
     'django.contrib.humanize',
 
     'frontend',
@@ -129,6 +133,12 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles_build", "static")
+
+cloudinary.config( 
+  	cloud_name = os.environ.get('CLOUD_NAME'),
+  	api_key = os.environ.get('API_KEY'),
+  	api_secret = os.environ.get('API_SECRET')
+)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
