@@ -138,134 +138,58 @@
                     </div>
                     <div class="custom_product_active owl-carousel">
                         <div class="custom_product_list">   
+                            {% for featured_product in featured_products %} 
                             <div class="single_product"> 
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product15.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{featured_product.image.url}}" alt=""></a>
 
                                 </div> 
                                 <div class="product_content">   
                                     <div class="product_ratting">
                                         <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
+                                            {% for i in "12345" %}
+                                                {% if forloop.counter <= featured_product.rating %}
+                                                <li><a href="#"><i class="ion-star"></i></a></li>
+                                                {% else %}
+                                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
+                                                {% endif %}
+                                            {% endfor %}
                                         </ul>
                                     </div>
-                                    <h3><a href="product-details.html">Classic 17-Piece Tool	</a></h3>
+                                    <h3><a href="product-details.html">{{featured_product.name|truncatechars:80}}</a></h3>
                                     <div class="product_price">
-                                        <span class="current_price">$24.00</span>
+                                        <span class="current_price">&#8358;{{featured_product.price|intcomma}}</span>
                                     </div>
                                 </div>    
                             </div>
-                            <div class="single_product"> 
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product16.jpg" alt=""></a>
-
-                                </div> 
-                                <div class="product_content">   
-                                    <div class="product_ratting">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">Cook N Home 12-Piece	</a></h3>
-                                    <div class="product_price">
-                                        <span class="current_price">$25.00</span>
-                                    </div>
-                                </div>    
-                            </div>
-                            <div class="single_product"> 
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product17.jpg" alt=""></a>
-
-                                </div> 
-                                <div class="product_content">   
-                                    <div class="product_ratting">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">Lid Cover Cookware	</a></h3>
-                                    <div class="product_price">
-                                        <span class="current_price">$28.00</span>
-                                    </div>
-                                </div>    
-                            </div>
+                            {% endfor %}
                         </div>
                         <div class="custom_product_list">   
+                            {% for featured_product in featured_products %} 
                             <div class="single_product"> 
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product18.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{featured_product.image.url}}" alt=""></a>
 
                                 </div> 
                                 <div class="product_content">   
                                     <div class="product_ratting">
                                         <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
+                                            {% for i in "12345" %}
+                                                {% if forloop.counter <= featured_product.rating %}
+                                                <li><a href="#"><i class="ion-star"></i></a></li>
+                                                {% else %}
+                                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
+                                                {% endif %}
+                                            {% endfor %}
                                         </ul>
                                     </div>
-                                    <h3><a href="product-details.html">Flare Glassware Set	</a></h3>
+                                    <h3><a href="product-details.html">{{featured_product.name|truncatechars:80}}</a></h3>
                                     <div class="product_price">
-                                        <span class="current_price">$26.00</span>
+                                        <span class="current_price">&#8358;{{featured_product.price|intcomma}}</span>
                                     </div>
                                 </div>    
                             </div>
-                            <div class="single_product"> 
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product19.jpg" alt=""></a>
-
-                                </div> 
-                                <div class="product_content">   
-                                    <div class="product_ratting">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">Cook N Home 12-Piece	</a></h3>
-                                    <div class="product_price">
-                                        <span class="current_price">$25.00</span>
-                                    </div>
-                                </div>    
-                            </div>
-                            <div class="single_product"> 
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product20.jpg" alt=""></a>
-
-                                </div> 
-                                <div class="product_content">   
-                                    <div class="product_ratting">
-                                        <ul>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-star"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                            <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">Flash Furniture Black	</a></h3>
-                                    <div class="product_price">
-                                        <span class="current_price">$28.00</span>
-                                    </div>
-                                </div>    
-                            </div>
+                            {% endfor %}
                         </div>     
                     </div>
                 </div>
