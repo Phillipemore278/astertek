@@ -1,199 +1,66 @@
 {% load static %}
 {% load humanize %}
+{% load product_tags %}
+
 <!--custom product start-->
 <div class="custom_product">
     <div class="container">
         <div class="row">
+
+            <!-- Recent Products -->
             <div class="col-lg-4 col-md-6">
                 <div class="custom_product_wrapper">
                     <div class="custom_product_title">
-                        <h3>recent product</h3>
+                        <h3>Recent Products</h3>
                     </div>
                     <div class="custom_product_active owl-carousel">
-                        <div class="custom_product_list">  
-                            {% for new_product in new_products %} 
-                            <div class="single_product"> 
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="{{new_product.image.url}}" alt=""></a>
-
-                                </div> 
-                                <div class="product_content">   
-                                    <div class="product_ratting">
-                                        <ul>
-                                            {% for i in "12345" %}
-                                                {% if forloop.counter <= new_product.rating %}
-                                                <li><a href="#"><i class="ion-star"></i></a></li>
-                                                {% else %}
-                                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">{{new_product.name|truncatechars:80}}</a></h3>
-                                    <div class="product_price">
-                                        <span class="current_price">&#8358;{{new_product.price|intcomma}}</span>
-                                    </div>
-                                </div>    
+                        {% for group in new_products|chunks:4 %}
+                            <div class="custom_product_list item">
+                                {% for product in group %}
+                                    {% include './single_custom_product.html' with product=product %}
+                                {% endfor %}
                             </div>
-                            {% endfor %}
-                        </div>
-                        <div class="custom_product_list">   
-                            {% for new_product in new_products %} 
-                            <div class="single_product"> 
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="{{new_product.image.url}}" alt=""></a>
-
-                                </div> 
-                                <div class="product_content">   
-                                    <div class="product_ratting">
-                                        <ul>
-                                            {% for i in "12345" %}
-                                                {% if forloop.counter <= new_product.rating %}
-                                                <li><a href="#"><i class="ion-star"></i></a></li>
-                                                {% else %}
-                                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">{{new_product.name|truncatechars:80}}</a></h3>
-                                    <div class="product_price">
-                                        <span class="current_price">&#8358;{{new_product.price|intcomma}}</span>
-                                    </div>
-                                </div>    
-                            </div>
-                            {% endfor %}
-                        </div>     
+                        {% endfor %}
                     </div>
                 </div>
             </div>
+
+            <!-- On Sale Products -->
             <div class="col-lg-4 col-md-6">
                 <div class="custom_product_wrapper">
                     <div class="custom_product_title">
-                        <h3>Other products</h3>
+                        <h3>Other Products</h3>
                     </div>
                     <div class="custom_product_active owl-carousel">
-                        <div class="custom_product_list">   
-                            {% for onsale_product in onsale_products %} 
-                            <div class="single_product"> 
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="{{onsale_product.image.url}}" alt=""></a>
-
-                                </div> 
-                                <div class="product_content">   
-                                    <div class="product_ratting">
-                                        <ul>
-                                            {% for i in "12345" %}
-                                                {% if forloop.counter <= onsale_product.rating %}
-                                                <li><a href="#"><i class="ion-star"></i></a></li>
-                                                {% else %}
-                                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">{{onsale_product.name|truncatechars:80}}</a></h3>
-                                    <div class="product_price">
-                                        <span class="current_price">&#8358;{{onsale_product.price|intcomma}}</span>
-                                    </div>
-                                </div>    
+                        {% for group in all_products|chunks:4 %}
+                            <div class="custom_product_list">
+                                {% for product in group %}
+                                    {% include './single_custom_product.html' with product=product %}
+                                {% endfor %}
                             </div>
-                            {% endfor %}
-                            
-                        </div>
-                        <div class="custom_product_list">   
-                            {% for onsale_product in onsale_products %} 
-                            <div class="single_product"> 
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="{{onsale_product.image.url}}" alt=""></a>
-
-                                </div> 
-                                <div class="product_content">   
-                                    <div class="product_ratting">
-                                        <ul>
-                                            {% for i in "12345" %}
-                                                {% if forloop.counter <= onsale_product.rating %}
-                                                <li><a href="#"><i class="ion-star"></i></a></li>
-                                                {% else %}
-                                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">{{onsale_product.name|truncatechars:80}}</a></h3>
-                                    <div class="product_price">
-                                        <span class="current_price">&#8358;{{onsale_product.price|intcomma}}</span>
-                                    </div>
-                                </div>    
-                            </div>
-                            {% endfor %}
-                        </div>     
+                        {% endfor %}
                     </div>
                 </div>
             </div>
+
+            <!-- Featured Products -->
             <div class="col-lg-4 col-md-6">
                 <div class="custom_product_wrapper">
                     <div class="custom_product_title">
-                        <h3>featured products </h3>
+                        <h3>Featured Products</h3>
                     </div>
                     <div class="custom_product_active owl-carousel">
-                        <div class="custom_product_list">   
-                            {% for featured_product in featured_products %} 
-                            <div class="single_product"> 
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="{{featured_product.image.url}}" alt=""></a>
-
-                                </div> 
-                                <div class="product_content">   
-                                    <div class="product_ratting">
-                                        <ul>
-                                            {% for i in "12345" %}
-                                                {% if forloop.counter <= featured_product.rating %}
-                                                <li><a href="#"><i class="ion-star"></i></a></li>
-                                                {% else %}
-                                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">{{featured_product.name|truncatechars:80}}</a></h3>
-                                    <div class="product_price">
-                                        <span class="current_price">&#8358;{{featured_product.price|intcomma}}</span>
-                                    </div>
-                                </div>    
+                        {% for group in featured_products|chunks:4 %}
+                            <div class="custom_product_list">
+                                {% for product in group %}
+                                    {% include './single_custom_product.html' with product=product %}
+                                {% endfor %}
                             </div>
-                            {% endfor %}
-                        </div>
-                        <div class="custom_product_list">   
-                            {% for featured_product in featured_products %} 
-                            <div class="single_product"> 
-                                <div class="product_thumb">
-                                    <a href="product-details.html"><img src="{{featured_product.image.url}}" alt=""></a>
-
-                                </div> 
-                                <div class="product_content">   
-                                    <div class="product_ratting">
-                                        <ul>
-                                            {% for i in "12345" %}
-                                                {% if forloop.counter <= featured_product.rating %}
-                                                <li><a href="#"><i class="ion-star"></i></a></li>
-                                                {% else %}
-                                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </ul>
-                                    </div>
-                                    <h3><a href="product-details.html">{{featured_product.name|truncatechars:80}}</a></h3>
-                                    <div class="product_price">
-                                        <span class="current_price">&#8358;{{featured_product.price|intcomma}}</span>
-                                    </div>
-                                </div>    
-                            </div>
-                            {% endfor %}
-                        </div>     
+                        {% endfor %}
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>

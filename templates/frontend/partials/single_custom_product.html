@@ -1,0 +1,23 @@
+{% load humanize %}
+<div class="single_product">
+    <div class="product_thumb">
+        <a href="product-details.html"><img src="{{ product.image.url }}" alt=""></a>
+    </div>
+    <div class="product_content">
+        <div class="product_ratting">
+            <ul>
+                {% for i in "12345" %}
+                    {% if forloop.counter <= product.rating %}
+                        <li><a href="#"><i class="ion-star"></i></a></li>
+                    {% else %}
+                        <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <h3><a href="product-details.html">{{ product.name|truncatechars:80 }}</a></h3>
+        <div class="product_price">
+            <span class="current_price">&#8358;{{ product.price|intcomma }}</span>
+        </div>
+    </div>
+</div>

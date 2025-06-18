@@ -4,6 +4,7 @@ from django.shortcuts import render
 from store.models import Product
 
 def home(request):
+    all_products = Product.objects.all()
     deals_products = Product.objects.filter(tags__name__iexact='Deals of the week', is_available=True)
     new_products = Product.objects.filter(tags__name__iexact='Recent Products', is_available=True)
     onsale_products = Product.objects.filter(tags__name__iexact='On Sale', is_available=True)
@@ -13,6 +14,7 @@ def home(request):
     mouse_products = Product.objects.filter(tags__name__iexact='Mouse', is_available=True)
 
     context = {
+        'all_products': all_products,
         'deals_products': deals_products,
         'new_products': new_products,
         'onsale_products': onsale_products,
