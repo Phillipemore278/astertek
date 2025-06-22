@@ -101,13 +101,22 @@
                                             {% endfor %}
                                         </ul>
                                     </div>
-                                    <h3><a href="product-details.html">{{product.name|truncatechars:60}}</a></h3>
+                                    <h3><a href="product-details.html">{{product.name|truncatechars:40}}</a></h3>
                                     <div class="product_price">
                                         <span class="current_price">&#8358;{{product.price|intcomma}}</span>
                                     </div>
                                     <div class="product_action">
                                         <ul>
-                                            <li class="product_cart"><a href="cart.html" title="Add to Cart">Add to Cart</a></li>
+                                            <li class="product_cart">
+                                                <form onsubmit="addToCart(event, this, '{{ product.slug }}')" class="d-inline">
+                                                    {% csrf_token %}
+                                                    <input type="number" name="quantity" value="1" min="1" style="width: 50px;">
+                                                    <button type="submit" class="btn btn-primary" data-product-slug="{{ product.slug }}">
+                                                        <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                                        <span class="btn-text">Add to Cart</span>
+                                                    </button>
+                                                </form>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>    
