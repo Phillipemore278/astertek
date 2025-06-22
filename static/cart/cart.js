@@ -60,3 +60,61 @@ function showCartToast(message) {
   const toast = new bootstrap.Toast(toastEl);
   toast.show();
 }
+
+// update and remove item from cart
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".update-btn").forEach((button) => {
+    button.addEventListener("click", () => {
+      const row = button.closest("tr");
+      const slug = row.dataset.slug;
+      const quantity = row.querySelector(".quantity-input").value;
+
+      fetch(window.CART_UPDATE_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "X-CSRFToken": getCSRFToken(),
+        },
+        body: new URLSearchParams({ slug, quantity }),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.success) {
+            row.querySelector(".item-total").innerText = `$${data.itemTotal}`;
+            document.getElementById("cart-total").innerText = data.cartTotal;
+            document.getElementById("cart-count").innerText = data.cartCount;
+            showCartToast("Quantity updated!");
+          } else {
+            showCartToast("Error updating item.");
+          }
+        });
+    });
+  });
+
+  document.querySelectorAll(".remove-btn").forEach((button) => {
+    button.addEventListener("click", () => {
+      const row = button.closest("tr");
+      const slug = row.dataset.slug;
+
+      fetch(window.CART_REMOVE_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "X-CSRFToken": getCSRFToken(),
+        },
+        body: new URLSearchParams({ slug }),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.success) {
+            row.remove();
+            document.getElementById("cart-total").innerText = data.cartTotal;
+            document.getElementById("cart-count").innerText = data.cartCount;
+            showCartToast("Item removed.");
+          } else {
+            showCartToast("Error removing item.");
+          }
+        });
+    });
+  });
+});

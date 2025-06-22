@@ -61,7 +61,7 @@
                             <a href="#"><i class="ion-ios-heart-outline"></i></a>
                         </div> -->
                         <div class="cart_link">
-                            <a href="#"><i class="ion-ios-cart-outline"></i>My Cart</a>
+                            <a href="{% url 'cart:cart_detail' %}"><i class="ion-ios-cart-outline"></i>My Cart</a>
                             <span class="cart_count" id="cart-count">{{ cart_item_count }}</span>
                         </div>
                     </div>

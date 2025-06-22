@@ -12,11 +12,11 @@ class Cart:
         self.cart = cart
 
     def add(self, product, quantity=1, override_quantity=False):
-        product_id = str(product.id)
+        product_slug = product.slug  # use slug as key
 
         # Session cart update
-        if product_id not in self.cart:
-            self.cart[product_id] = {
+        if product_slug not in self.cart:
+            self.cart[product_slug] = {
                 'quantity': 0,
                 'price': str(product.price),
                 'name': product.name,
@@ -24,9 +24,9 @@ class Cart:
             }
 
         if override_quantity:
-            self.cart[product_id]['quantity'] = quantity
+            self.cart[product_slug]['quantity'] = quantity
         else:
-            self.cart[product_id]['quantity'] += quantity
+            self.cart[product_slug]['quantity'] += quantity
 
         self.save()
 
@@ -44,9 +44,9 @@ class Cart:
         self.session.modified = True
 
     def remove(self, product):
-        product_id = str(product.id)
-        if product_id in self.cart:
-            del self.cart[product_id]
+        product_slug = product.slug
+        if product_slug in self.cart:
+            del self.cart[product_slug]
             self.save()
 
         if self.user.is_authenticated:
@@ -59,13 +59,13 @@ class Cart:
             CartItem.objects.filter(user=self.user).delete()
 
     def __iter__(self):
-        product_ids = self.cart.keys()
-        products = Product.objects.filter(id__in=product_ids)
+        product_slugs = self.cart.keys()
+        products = Product.objects.filter(slug__in=product_slugs)
         for product in products:
-            cart_item = self.cart[str(product.id)]
-            cart_item['product_obj'] = product
-            cart_item['total_price'] = Decimal(cart_item['price']) * cart_item['quantity']
-            yield cart_item
+            item = self.cart[product.slug].copy()  # copy dict to avoid mutation issues
+            item['product_obj'] = product
+            item['total_price'] = Decimal(item['price']) * item['quantity']
+            yield item
 
     def __len__(self):
         return sum(item['quantity'] for item in self.cart.values())
@@ -74,11 +74,10 @@ class Cart:
         return sum(Decimal(item['price']) * item['quantity'] for item in self.cart.values())
 
     def sync_to_session(self):
-        # Sync DB cart items to session cart on login
         if self.user.is_authenticated:
             self.cart = {}
             for item in CartItem.objects.filter(user=self.user):
-                self.cart[str(item.product.id)] = {
+                self.cart[item.product.slug] = {
                     'quantity': item.quantity,
                     'price': str(item.product.price),
                     'name': item.product.name,
