@@ -149,7 +149,16 @@
                                             </div>
                                             <div class="product_action">
                                                 <ul>
-                                                    <li class="product_cart"><a href="cart.html" title="Add to Cart">Add to Cart</a></li>
+                                                    <li class="product_cart">
+                                                        <form onsubmit="addToCart(event, this, '{{ product.slug }}')" class="d-inline">
+                                                            {% csrf_token %}
+                                                            <input type="number" name="quantity" value="1" min="1" style="width: 50px;">
+                                                            <button type="submit" class="btn btn-primary" data-product-slug="{{ product.slug }}">
+                                                                <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                                                <span class="btn-text">Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>    
@@ -194,7 +203,16 @@
                                             </div>
                                             <div class="product_action">
                                                 <ul>
-                                                    <li class="product_cart"><a href="cart.html" title="Add to Cart">Add to Cart</a></li>
+                                                    <li class="product_cart">
+                                                        <form onsubmit="addToCart(event, this, '{{ product.slug }}')" class="d-inline">
+                                                            {% csrf_token %}
+                                                            <input type="number" name="quantity" value="1" min="1" style="width: 50px;">
+                                                            <button type="submit" class="btn btn-primary" data-product-slug="{{ product.slug }}">
+                                                                <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                                                <span class="btn-text">Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>

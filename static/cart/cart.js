@@ -81,7 +81,13 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((data) => {
           if (data.success) {
             row.querySelector(".item-total").innerText = `$${data.itemTotal}`;
-            document.getElementById("cart-total").innerText = data.cartTotal;
+
+            // Update cart subtotal and final total in footer
+            document.getElementById("cart-subtotal").innerText =
+              "₦" + data.cartTotal;
+            document.getElementById("cart-final-total").innerText =
+              "₦" + data.finalTotal;
+
             document.getElementById("cart-count").innerText = data.cartCount;
             showCartToast("Quantity updated!");
           } else {
@@ -108,8 +114,14 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((data) => {
           if (data.success) {
             row.remove();
-            document.getElementById("cart-total").innerText = data.cartTotal;
             document.getElementById("cart-count").innerText = data.cartCount;
+
+            // Update cart subtotal and final total in footer
+            document.getElementById("cart-subtotal").innerText =
+              "₦" + data.cartTotal;
+            document.getElementById("cart-final-total").innerText =
+              "₦" + data.finalTotal;
+
             showCartToast("Item removed.");
           } else {
             showCartToast("Error removing item.");

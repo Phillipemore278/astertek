@@ -1,0 +1,9 @@
+{% extends 'frontend/base.html' %}
+{% block content %}
+<div class="container mt-5 text-center">
+  <h3>You need to log in or register to continue</h3>
+  <p>To proceed to checkout, please log in or create an account.</p>
+  <a href="{% url 'account:login' %}?next={{ next }}" class="btn btn-primary m-2">Login</a>
+  <a href="{% url 'account:register' %}?next={{ next }}" class="btn btn-secondary m-2">Register</a>
+</div>
+{% endblock %}

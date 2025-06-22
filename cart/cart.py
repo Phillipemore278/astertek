@@ -72,6 +72,12 @@ class Cart:
 
     def get_total_price(self):
         return sum(Decimal(item['price']) * item['quantity'] for item in self.cart.values())
+    
+    def get_shipping_cost(self):
+        return Decimal("2500.00")  # or logic to calculate dynamically
+
+    def get_final_total(self):
+        return self.get_total_price() + self.get_shipping_cost()
 
     def sync_to_session(self):
         if self.user.is_authenticated:

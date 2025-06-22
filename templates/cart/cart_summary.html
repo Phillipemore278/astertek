@@ -24,36 +24,37 @@
 </div>
 <!--breadcrumbs area end-->
 
-<div class="container">
-    <table class="table">
-        <thead>
-          <tr>
-            <th>Product</th>
-            <th>Price</th>
-            <th>Quantity</th>
-            <th>Total</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for item in cart_items %}
-          <tr data-slug="{{ item.slug }}">
-            <td>{{ item.name }}</td>
-            <td>${{ item.price|intcomma }}</td>
-            <td>
-              <input type="number" class="form-control quantity-input" value="{{ item.quantity }}" min="1" style="width: 80px;">
-            </td>
-            <td class="item-total">${{ item.total_price|intcomma }}</td>
-            <td>
-              <button type="button" class="btn btn-sm btn-primary update-btn">Update</button>
-              <button type="button" class="btn btn-sm btn-danger remove-btn">Remove</button>
-            </td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-      
-      <p class="mb-5"><strong>Total:</strong> $<span id="cart-total">{{ cart_total|intcomma }}</span></p>
+<div class="container mb-5">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for item in cart_items %}
+              <tr data-slug="{{ item.slug }}">
+                <td>{{ item.name }}</td>
+                <td>&#8358;{{ item.price|intcomma }}</td>
+                <td>
+                  <input type="number" class="form-control quantity-input" value="{{ item.quantity }}" min="1" style="width: 80px;">
+                </td>
+                <td class="item-total">&#8358;{{ item.total_price|intcomma }}</td>
+                <td>
+                  <button type="button" class="btn btn-sm btn-primary update-btn">Update</button>
+                  <button type="button" class="btn btn-sm btn-danger remove-btn">Remove</button>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <!-- <p class="mb-5"><strong>Total:</strong> &#8358;<span id="cart-total">{{ cart_total|intcomma }}</span></p> -->
 </div>
 
 
@@ -80,20 +81,20 @@
                           <div class="coupon_inner">
                              <div class="cart_subtotal">
                                  <p>Subtotal</p>
-                                 <p class="cart_amount">£215.00</p>
+                                 <p class="cart_amount" id="cart-subtotal">&#8358;{{ cart_total|intcomma }}</p>
                              </div>
                              <div class="cart_subtotal ">
                                  <p>Shipping</p>
-                                 <p class="cart_amount"><span>Flat Rate:</span> £255.00</p>
+                                 <p class="cart_amount"><span>Flat Rate:</span> &#8358;{{ shipping|intcomma }}</p>
                              </div>
                              <a href="#">Calculate shipping</a>
 
                              <div class="cart_subtotal">
                                  <p>Total</p>
-                                 <p class="cart_amount">£215.00</p>
+                                 <p class="cart_amount" id="cart-final-total">&#8358;{{ final_total|intcomma }}</p>
                              </div>
                              <div class="checkout_btn">
-                                 <a href="#">Proceed to Checkout</a>
+                                 <a href="{% url 'cart:checkout' %}">Proceed to Checkout</a>
                              </div>
                           </div>
                       </div>
@@ -105,4 +106,8 @@
   </div>     
 </div>
 <!--shopping cart area end -->
+
+<!-- shipping list -->
+{% include '../frontend/partials/shipping.html' %}
+<!-- shipping list end -->
 {% endblock %}
