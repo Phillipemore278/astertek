@@ -1,8 +1,6 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render
 from django.shortcuts import render, get_object_or_404
-from django.template.loader import render_to_string
-from django.http import JsonResponse
 
 # my imports
 from store.models import Category, Product, Brand, Tag
@@ -60,3 +58,4 @@ def about(request):
 
 def contact(request):
     return render(request, 'frontend/contact.html' )
+

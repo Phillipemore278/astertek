@@ -1,5 +1,6 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render
+from django.db.models import Q
 
 from store.models import Product
 
@@ -15,3 +16,19 @@ def store(request):
         'products':products
     }
     return render(request, 'store/store.html', context)
+
+
+def product_search(request):
+    query = request.GET.get('q', '')
+    products = Product.objects.none()
+
+    if query:
+        products = Product.objects.filter(
+            Q(name__icontains=query) |
+            Q(description__icontains=query) |
+            Q(category__name__icontains=query) |
+            Q(brand__name__icontains=query) |
+            Q(tags__name__icontains=query)
+        ).distinct()
+
+    return render(request, 'store/product_search_results.html', {'products': products, 'query': query})
