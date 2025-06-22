@@ -1,0 +1,248 @@
+{% extends './base.html' %}
+{% load static %}
+{% load humanize %}
+{% block title %}Category - {{category.name}} {% endblock %}
+
+{% block content %}
+
+<!--breadcrumbs area start-->
+<div class="breadcrumbs_area">
+    <div class="container">   
+        <div class="breadcrumbs_inner">  
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb_content">
+                        <h3>{{category.name}}</h3>
+                        <ul>
+                            <li><a href="{% url 'frontend:home' %}">home</a></li>
+                            <li><i class="fa fa-angle-right"></i></li>
+                            <li>{{category.name}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>         
+</div>
+<!--breadcrumbs area end-->
+
+<!--shop wrapper start-->
+<div class="shop_wrapper shop_reverse">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-12">
+                <div class="sidebar_widget">
+                    <!--widget color start-->
+                    <div class="widget_list widget_color">
+                        <h3>Categories</h3>
+                        <ul>
+                            {% for categori in categories %}
+                                <li><a href="{{categori.get_absolute_url}}">{{categori.name}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <!--widget color start-->
+                    
+                    <!--manufacturer start-->
+                    <div class="widget_list manufacturer">
+                        <h3>Brands</h3>
+                        <ul>
+                            {% for brand in brands %}
+                                <li><a href="#">{{brand.name}}</a></li>
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                    <!--manufacturer start-->
+                    
+                    <!--popular tags area-->
+                    <div class="widget_list tag_widget  ">
+                        <h3>Popular tags</h3>
+                        <div class="block_tags">
+                            {% for tag in tags %}
+                                <a href="#">{{tag.name}}</a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <!--popular tags end-->
+                    
+                    <!--widget banner start-->
+                    <div class="widget_list banner">
+                        <div class="banner_thumb">
+                            <a href="#"><img src="{% static 'frontend/assets/img/banner/banner9.png' %}" alt=""></a>
+                        </div>
+                    </div>
+                    <!--widget banner end-->
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12">
+                <!--shop toolbar start-->
+                <div class="shop_toolbar">
+
+                    <div class="list_button">
+                        <ul class="nav" role="tablist">
+                            <li>
+                                <a class="active" data-bs-toggle="tab" href="#large" role="tab" aria-controls="large" aria-selected="true"><i class="ion-grid"></i></a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="tab" href="#list" role="tab" aria-controls="list" aria-selected="false"><i class="ion-android-menu"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="select_option number">
+                        <form action="#">
+                            <label>Show:</label>
+                            <select name="orderby" id="short">
+                                <option selected value="1">9</option>
+                                <option value="1">19</option>
+                                <option value="1">30</option>
+                            </select>
+                        </form>
+                    </div> -->
+                    <!-- <div class="select_option">
+                        <form action="#">
+                            <label>Sort By</label>
+                            <select name="orderby" id="short1">
+                                <option selected value="1">Position</option>
+                                <option value="1">Price: Lowest</option>
+                                <option value="1">Price: Highest</option>
+                                <option value="1">Product Name:Z</option>
+                                <option value="1">Sort by price:low</option>
+                                <option value="1">Product Name: Z</option>
+                                <option value="1">In stock</option>
+                                <option value="1">Product Name: A</option>
+                                <option value="1">In stock</option>
+                            </select>
+                        </form>
+                    </div> -->
+                </div>
+                <!--shop toolbar end-->
+                 <!--shop tab product-->
+                <div class="shop_tab_product">   
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="large" role="tabpanel">
+                            <div class="row">
+                            {% for product in products %}
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single_product"> 
+                                        <div class="product_thumb">
+                                             <a href="product-details.html"><img src="{{product.image.url}}" alt=""></a>
+                                             <div class="btn_quickview">
+                                                 <a href="#" data-bs-toggle="modal" data-bs-target="#modal_box"  title="Quick View"><i class="ion-ios-eye"></i></a>
+                                            </div>
+                                        </div> 
+                                        <div class="product_content">   
+                                            <div class="product_ratting">
+                                                <ul>
+                                                    {% for i in "12345" %}
+                                                        {% if forloop.counter <= product.rating %}
+                                                        <li><a href="#"><i class="ion-star"></i></a></li>
+                                                        {% else %}
+                                                        <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                </ul>
+                                            </div>
+                                            <h3><a href="product-details.html">{{product.name|truncatechars:40}}</a></h3>
+                                            <div class="product_price">
+                                                <span class="current_price">&#8358;{{product.price|intcomma}}</span>
+                                            </div>
+                                            <div class="product_action">
+                                                <ul>
+                                                    <li class="product_cart"><a href="cart.html" title="Add to Cart">Add to Cart</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            {% empty %}
+                                <p class="text-center">No Products Available for this Category</p>
+                            {% endfor %}
+                            </div>     
+                        </div>
+                        <div class="tab-pane fade" id="list" role="tabpanel">
+                        {% for product in products %}
+                            <div class="single_product list_item">
+                                <div class="row align-items-center">   
+                                    <div class="col-lg-4 col-md-5">
+                                        <div class="product_thumb">
+                                             <a href="product-details.html"><img src="{{product.image.url}}" alt=""></a>
+                                             <div class="btn_quickview">
+                                                 <a href="#" data-bs-toggle="modal" data-bs-target="#modal_box"  title="Quick View"><i class="ion-ios-eye"></i></a>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="col-lg-8 col-md-7">
+                                        <div class="product_content">   
+                                            <div class="product_ratting">
+                                                <ul>
+                                                    {% for i in "12345" %}
+                                                        {% if forloop.counter <= product.rating %}
+                                                        <li><a href="#"><i class="ion-star"></i></a></li>
+                                                        {% else %}
+                                                        <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                </ul>
+                                            </div>
+                                            <h3><a href="product-details.html">{{product.name}}</a></h3>
+                                            <div class="product_price">
+                                                <span class="current_price">&#8358;{{product.price|intcomma}}</span>
+                                            </div>
+                                            <div class="product_description">
+                                                <p>{{product.description|truncatechars:280}}</p>
+                                            </div>
+                                            <div class="product_action">
+                                                <ul>
+                                                    <li class="product_cart"><a href="cart.html" title="Add to Cart">Add to Cart</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>  
+                        {% empty %}
+                            <p class="text-center">No Products Available for this Category</p>
+                        {% endfor %}                 
+                        </div>
+
+                    </div>
+                </div>    
+                <!--shop tab product end-->
+                
+                <!-- pagination style start -->
+                {% if products.has_other_pages %}
+                <div class="pagination_style">
+                    <ul>
+                        {% if products.has_previous %}
+                            <li><a href="?page={{ products.previous_page_number }}">«</a></li>
+                        {% else %}
+                            <li class="disabled">«</li>
+                        {% endif %}
+
+                        {% for num in products.paginator.page_range %}
+                            {% if products.number == num %}
+                                <li class="current_number">{{ num }}</li>
+                            {% else %}
+                                <li><a href="?page={{ num }}">{{ num }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+
+                        {% if products.has_next %}
+                            <li><a href="?page={{ products.next_page_number }}">»</a></li>
+                        {% else %}
+                            <li class="disabled">»</li>
+                        {% endif %}
+                    </ul>
+                </div>
+                {% endif %}
+                <!-- pagination style end -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--shop wrapper end-->
+<!-- shipping list -->
+{% include './partials/shipping.html' %}
+<!-- shipping list end -->
+{% endblock %}

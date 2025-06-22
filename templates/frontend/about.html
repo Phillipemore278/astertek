@@ -1,0 +1,152 @@
+{% extends './base.html' %}
+{% load static %}
+{% load humanize %}
+{% block title %}About Astertek Limited{% endblock %}
+
+{% block content %}
+<style>
+    li{
+        padding-bottom: 15px !important;
+    }
+</style>
+<!--breadcrumbs area start-->
+<div class="breadcrumbs_area commun_bread">
+    <div class="container">   
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumb_content">
+                    <h3>about us</h3>
+                    <ul>
+                        <li><a href="{% url 'frontend:home' %}">home</a></li>
+                        <li><i class="fa fa-angle-right"></i></li>
+                        <li>about us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>         
+</div>
+<!--breadcrumbs area end-->
+
+ <!--about section area -->
+ <div class="about_section">
+    <div class="container">  
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="about_thumb">
+                    <img src="{% static 'frontend/assets/img/ship/about1.jpg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="about_content" style="text-align: left !important;">
+                    <h1>About Us - Astertek</h1>
+                    <p>Welcome to <strong>Astertek</strong>, Nigeria's trusted destination for the latest in technology and innovation. Located at 51 Abolaji Street, Mafoluku, Oshodi, Lagos, we are your one stop eCommerce hub for premium phones, computers, gaming consoles, and a wide range of tech accessories that power your digital lifestyle.</p>
+                    <p>At Astertek, we believe that technology should be <strong>accessible, affordable, and reliable</strong>. Whether you're upgrading your smartphone, building your dream workstation, or shopping for the newest gaming gear, our carefully curated collection offers something for everyone, from students and tech enthusiasts to working professionals and gamers.</p>
+                    <h4>Why Choose Astertek?</h4>
+                    <ul style="list-style: disc; padding-left: 30px;">
+                        <li><strong>Nationwide Delivery: </strong>Fast and secure delivery to every corner of Nigeria.</li>
+                        <li><strong>2 Weeks Warranty: </strong>Shop with confidence knowing your purchase is protected.</li>
+                        <li><strong>Flexible Payment Plans: </strong>Spread your payments with ease — no stress, no delays.</li>
+                        <li><strong>Genuine Products Only: </strong>100% authentic devices and accessories from top brands.</li>
+                        <li><strong>Customer Centered Service: </strong>Your satisfaction is our priority, from click to delivery.</li>
+                    </ul>
+                    <p>Founded with a passion for tech and a commitment to quality, Astertek is more than just an online store, we're a <strong>community of digital explorers</strong> helping Nigerians stay connected, productive, and entertained.</p>
+                    <p>Explore. Upgrade. Experience more — only at <strong>Astertek.</strong></p>
+                    <!-- <div class="view__work">
+                        <a href="#">view work </a>
+                    </div>   -->
+                </div>
+            </div>
+        </div>
+    </div>     
+</div>
+<!--about section end-->
+
+<!--counterup area -->
+<!-- <div class="counterup_section">
+    <div class="container">   
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single_counterup">
+                   <div class="counter_img">
+                        <img src="{% static 'frontend/assets/img/cart/count.png' %}" alt="">
+                    </div>
+                    <div class="counter_info">
+                        <h2 class="counter_number">2170</h2>
+                        <p>happy customers</p>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single_counterup count-two">
+                    <div class="counter_img">
+                        <img src="{% static 'frontend/assets/img/cart/count2.png' %}" alt="">
+                    </div>
+                    <div class="counter_info">
+                        <h2 class="counter_number">8080</h2>
+                        <p>AWARDS won</p>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single_counterup">
+                    <div class="counter_img">
+                        <img src="{% static 'frontend/assets/img/cart/count3.png' %}" alt="">
+                    </div>
+                    <div class="counter_info">
+                        <h2 class="counter_number">2150</h2>
+                        <p>HOURS WORKED</p>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single_counterup count-two">
+                    <div class="counter_img">
+                        <img src="{% static 'frontend/assets/img/cart/cart5.png' %}" alt="">
+                    </div>
+                    <div class="counter_info">
+                        <h2 class="counter_number">2170</h2>
+                        <p>COMPLETE PROJECTS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div> -->
+<!--counterup end-->
+<!--brand area start-->
+<!-- <div class="brand_area">
+    <div class="container">
+        <div class="brand_inner">  
+            <div class="row">
+                <div class="brand_active owl-carousel">
+                    <div class="single_brand">
+                        <a href="#"><img src="{% static 'frontend/assets/img/brand/bra1.png' %}" alt=""></a>
+                    </div>
+                    <div class="single_brand">
+                        <a href="#"><img src="{% static 'frontend/assets/img/brand/bra2.png' %}" alt=""></a>
+                    </div>
+                    <div class="single_brand">
+                        <a href="#"><img src="{% static 'frontend/assets/img/brand/bra3.png' %}" alt=""></a>
+                    </div>
+                    <div class="single_brand">
+                        <a href="#"><img src="{% static 'frontend/assets/img/brand/bra4.png' %}" alt=""></a>
+                    </div>
+                    <div class="single_brand">
+                        <a href="#"><img src="{% static 'frontend/assets/img/brand/bra5.png' %}" alt=""></a>
+                    </div>
+                    <div class="single_brand">
+                        <a href="#"><img src="{% static 'frontend/assets/img/brand/bra6.png' %}" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </div>
+</div> -->
+<!--brand area end-->
+
+
+<!-- shipping list -->
+{% include './partials/shipping.html' %}
+<!-- shipping list end -->
+{% endblock %}

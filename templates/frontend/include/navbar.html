@@ -9,7 +9,7 @@
 
                 <div class="col-lg-6 col-md-6">
                     <div class="welcome_text">
-                        <p class="text-white">Nigeria's Fastest Online accessories Shopping Destination</p>
+                        <p class="text-white">Nigeria's Most Reliable Computers and Phones Online Store</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -82,9 +82,13 @@
                         <div class="categories_menu_inner">
                             <ul>
                                 {% for category in categories %}
-                                    <li class="categorie_list"><a href="#">{{ category.name }}</a>
+                                    <li class="categorie_list">
+                                        <a href="{{ category.get_absolute_url }}">
+                                            {{ category.name }}
+                                        </a>
                                     </li>
                                 {% endfor %}
+                                <li><a href="#"> Accessories</a></li>
                                 <!-- <li><a href="#"> Accessories</a></li>
                                 <li><a href="#">Books & Office</a></li>
                                 <li><a href="#"> Sport & Outdoor</a></li>
@@ -102,47 +106,24 @@
                     <div class="main_menu_inner">
                         <div class="main_menu d-none d-lg-block"> 
                             <ul>
-                                <li class="active"><a href="{% url 'frontend:home' %}">Home <i class="fa fa-angle-down"></i></a>
+                                <li class="active"><a href="{% url 'frontend:home' %}">Home</a>
                                 </li>
-                                <li><a href="shop.html">Store <i class="fa fa-angle-down"></i></a>
+                                <li><a href="{% url 'store:store' %}">Store</a>
                                 </li>
-                                <li><a href="#">pages <i class="fa fa-angle-down"></i></a>
-                                    <ul class="sub_menu pages">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="services.html">services</a></li>
-                                        <li><a href="faq.html">Frequently Questions</a></li>
-                                        <li><a href="login.html">login</a></li>
-                                        <li><a href="my-account.html">my account</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="compare.html">Compare</a></li>
-                                        <li><a href="coming-soon.html">Coming soon</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="{% url 'frontend:about' %}">About Us</a></li>
+                                <li><a href="{% url 'frontend:contact' %}">Contact Us</a></li>
                             </ul>
 
                         </div>
                         <div class="mobile-menu d-lg-none">
                             <nav>  
                                 <ul>
-                                <li><a href="index.html">Home</a>
+                                <li><a href="{% url 'frontend:home' %}"">Home</a>
                                 </li>
-                                <li><a href="shop.html">Store</a>
+                                <li><a href="{% url 'store:store' %}">Store</a>
                                 </li>
-                                <li><a href="#">pages</a>
-                                    <ul>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="services.html">services</a></li>
-                                        <li><a href="faq.html">Frequently Questions</a></li>
-                                        <li><a href="login.html">login</a></li>
-                                        <li><a href="my-account.html">my account</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="404.html">Error 404</a></li>
-                                        <li><a href="compare.html">Compare</a></li>
-                                        <li><a href="coming-soon.html">Coming soon</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="{% url 'frontend:about' %}">About Us</a></li> 
+                                <li><a href="{% url 'frontend:contact' %}">Contact Us</a></li>
                             </ul>
                             </nav>      
                         </div>
@@ -155,7 +136,7 @@
                         </div>
                         <div class="contact_number">
                             <p>Call Us:</p>
-                            <span>(+234)8038485689</span>
+                            <span>(+234)8039697424</span>
                         </div>
                     </div>
                 </div>

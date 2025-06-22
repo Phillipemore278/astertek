@@ -1,7 +1,11 @@
+from django.core.paginator import Paginator
 from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from django.template.loader import render_to_string
+from django.http import JsonResponse
 
 # my imports
-from store.models import Product
+from store.models import Category, Product, Brand, Tag
 
 def home(request):
     all_products = Product.objects.all()
@@ -23,3 +27,36 @@ def home(request):
         'mouse_products': mouse_products,
     }
     return render(request, 'frontend/index.html', context)
+
+
+# def category_list(request):
+#     categories = Category.objects.all()
+#     return render(request, "frontend/category_list.html", {"categories": categories})
+
+def category_detail(request, slug):
+    category = get_object_or_404(Category, slug=slug)
+    product_list = Product.objects.filter(category=category)
+
+    # Pagination: 9 products per page (you can change this)
+    paginator = Paginator(product_list, 15)
+    page_number = request.GET.get('page')
+    products = paginator.get_page(page_number)
+
+    brands = Brand.objects.all()
+    tags = Tag.objects.all()
+
+    context = {
+        "category": category,
+        'products': products,  # This is now a Page object
+        'brands': brands,
+        'tags': tags,
+    }
+    return render(request, "frontend/category_detail.html", context)
+
+
+def about(request):
+    return render(request, 'frontend/about.html' )
+
+
+def contact(request):
+    return render(request, 'frontend/contact.html' )
