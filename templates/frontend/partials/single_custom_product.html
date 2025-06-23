@@ -1,7 +1,7 @@
 {% load humanize %}
 <div class="single_product">
     <div class="product_thumb">
-        <a href="product-details.html"><img src="{{ product.image.url }}" alt=""></a>
+        <a href="{% url 'store:product_detail' product.slug %}"><img src="{{ product.image.url }}" alt=""></a>
     </div>
     <div class="product_content">
         <div class="product_ratting">
@@ -15,7 +15,7 @@
                 {% endfor %}
             </ul>
         </div>
-        <h3><a href="product-details.html">{{ product.name|truncatechars:80 }}</a></h3>
+        <h3><a href="{% url 'store:product_detail' product.slug %}">{{ product.name|truncatechars:80 }}</a></h3>
         <div class="product_price">
             <span class="current_price">&#8358;{{ product.price|intcomma }}</span>
         </div>

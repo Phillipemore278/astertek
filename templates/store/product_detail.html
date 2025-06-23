@@ -1,0 +1,273 @@
+{% extends '../frontend/base.html' %}
+{% load static %}
+{% load humanize %}
+{% block title %}Store | {{product.name}}{% endblock %}
+
+{% block content %}
+<!--breadcrumbs area start-->
+<div class="breadcrumbs_area">
+    <div class="container">   
+        <div class="breadcrumbs_inner">  
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb_content">
+                        <h3>{{product.name|truncatechars:40}}</h3>
+                        <ul>
+                            <li><a href="{% url 'frontend:home' %}">home</a></li>
+                            <li><i class="fa fa-angle-right"></i></li>
+                            <li>{{product.name}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>         
+</div>
+<!--breadcrumbs area end-->
+
+<!--single product wrapper start-->
+<div class="single_product_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-6">
+                <div class="product_gallery">
+                    <div class="tab-content produc_thumb_conatainer">
+                        <div class="tab-pane fade show active" id="p_tab1" role="tabpanel" >
+                            <div class="modal_img">
+                                <a href="#"><img src="{{product.image.url}}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-6">
+                <div class="product_details">
+                    <h3>{{product.name}}</h3>
+                    <div class="product_price">
+                        <span class="current_price">&#8358;{{product.price|intcomma}}</span>
+                        <!-- <span class="old_price">&#8358;{{product.old_price|intcomma}}</span> -->
+                    </div>
+                    <div class="product_ratting">
+                        <ul>
+                            {% for i in "12345" %}
+                                {% if forloop.counter <= product.rating %}
+                                <li><a href="#"><i class="ion-star"></i></a></li>
+                                {% else %}
+                                <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                        <!-- <ul>
+                            <li><a href="#">1 Review</a></li>
+                        </ul> -->
+                    </div>
+                   <div class="product_description">
+                       <p>{{product.description|truncatechars:320}}</p>
+                   </div>
+                    <div class="product_details_action">
+                        <!-- <h3>Available Options</h3> -->
+                        <!-- <div class="product_stock">
+                            <label>Quantity</label>
+                            <input min="1" value="1" max="100" type="number">
+                        </div> -->
+                        <div class="product_action_link">
+                            <ul>
+                                <li class="product_cart">
+                                    <form onsubmit="addToCart(event, this, '{{ product.slug }}')" class="d-inline">
+                                        {% csrf_token %}
+                                        <input type="number" name="quantity" value="1" min="1" style="width: 50px;">
+                                        <button type="submit" class="btn btn-primary w-100 mt-3" data-product-slug="{{ product.slug }}">
+                                            <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                            <span class="btn-text">Add to Cart</span>
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="social_sharing">
+                            <span>Share</span>
+                            <ul>
+                                <li><a href="#" class="bg-facebook" data-bs-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i> Share</a></li>
+                                <li><a href="#" class="bg-Tweet" data-bs-toggle="tooltip" title="twitter"><i class="fa fa-twitter"></i> Tweet</a></li>
+                                <li><a href="#" class="bg-google" data-bs-toggle="tooltip" title="google-plus"><i class="fa fa-google-plus"></i> Google+</a></li>
+                                <li><a href="#" class="bg-pinterest" data-bs-toggle="tooltip" title="pinterest"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+                            </ul>
+                        </div>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--single product wrapper end-->
+
+ <!--product info start-->
+ <div class="product_d_info">
+    <div class="container">   
+        <div class="row">
+            <div class="col-12">
+                <div class="product_d_inner">   
+                    <div class="product_info_button">    
+                        <ul class="nav" role="tablist">
+                            <li >
+                                <a class="active" data-bs-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false">More info</a>
+                            </li>
+                            <!-- <li>
+                                 <a data-bs-toggle="tab" href="#sheet" role="tab" aria-controls="sheet" aria-selected="false">Data sheet</a>
+                            </li>
+                            <li>
+                               <a data-bs-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Reviews</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="info" role="tabpanel" >
+                            <div class="product_info_content">
+                                <p>{{product.description}}</p>
+                            </div>    
+                        </div>
+
+                        <!-- <div class="tab-pane fade" id="sheet" role="tabpanel" >
+                            <div class="product_d_table">
+                               <form action="#">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td class="first_child">Compositions</td>
+                                                <td>Polyester</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="first_child">Styles</td>
+                                                <td>Girly</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="first_child">Properties</td>
+                                                <td>Short Dress</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </form>
+                            </div>
+                            <div class="product_info_content">
+                                <p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman's wardrobe. The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!</p>
+                            </div>    
+                        </div> -->
+                        <!-- <div class="tab-pane fade" id="reviews" role="tabpanel" >
+                            <div class="product_info_content">
+                                <p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman's wardrobe. The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!</p>
+                            </div>
+                            <div class="product_info_inner">
+                                <div class="product_ratting mb-10">
+                                    <ul>
+                                        <li><a href="#"><i class="ion-star"></i></a></li>
+                                        <li><a href="#"><i class="ion-star"></i></a></li>
+                                        <li><a href="#"><i class="ion-star"></i></a></li>
+                                        <li><a href="#"><i class="ion-star"></i></a></li>
+                                        <li><a href="#"><i class="ion-star"></i></a></li>
+                                    </ul>
+                                    <strong>Posthemes</strong> 
+                                    <p>09/07/2023</p>
+                                </div>
+                                <div class="product_demo">
+                                    <strong>demo</strong>
+                                    <p>That's OK!</p>
+                                </div>
+                            </div> 
+                            <div class="product_review_form">
+                                <form action="#">
+                                    <h2>Add a review </h2>
+                                    <p>Your email address will not be published. Required fields are marked </p>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="review_comment">Your review </label>
+                                            <textarea name="comment" id="review_comment" ></textarea>
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <label for="author">Name</label>
+                                            <input id="author"  type="text">
+
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <label for="email">Email </label>
+                                            <input id="email"  type="text">
+                                        </div>  
+                                    </div>
+                                    <button type="submit">Submit</button>
+                                 </form>   
+                            </div>     
+                        </div> -->
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </div>    
+</div>  
+<!--product info end-->
+
+<!--product area start-->
+<div class="produtc_area related_Product">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="consoles_product_title">
+                    <h3>Related Products</h3>
+                </div>
+            </div>
+        </div>
+       <div class="row">
+            <div class="product_active owl-carousel">
+                {% for item in related_products%}
+                <div class="col-lg-3">
+                    <div class="single_product"> 
+                        <div class="product_thumb">
+                             <a href="{% url 'store:product_detail' product.slug %}"><img src="{{item.image.url}}" alt=""></a>
+                             <div class="btn_quickview">
+                                 <a href="{% url 'store:product_detail' product.slug %}" title="Quick View"><i class="ion-ios-eye"></i></a>
+                            </div>
+                        </div> 
+                        <div class="product_content">   
+                            <div class="product_ratting">
+                                <ul>
+                                    {% for i in "12345" %}
+                                        {% if forloop.counter <= item.rating %}
+                                        <li><a href="#"><i class="ion-star"></i></a></li>
+                                        {% else %}
+                                        <li><a href="#"><i class="ion-ios-star-outline"></i></a></li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <h3><a href="{% url 'store:product_detail' product.slug %}">{{item.name|truncatechars:40}}</a></h3>
+                            <div class="product_price">
+                                <span class="current_price">&#8358;{{item.price|intcomma}}</span>
+                            </div>
+                            <div class="product_action">
+                                <ul>
+                                    <li class="product_cart">
+                                        <form onsubmit="addToCart(event, this, '{{ item.slug }}')" class="d-inline">
+                                            {% csrf_token %}
+                                            <input type="number" name="quantity" value="1" min="1" style="width: 50px;">
+                                            <button type="submit" class="btn btn-primary" data-product-slug="{{ item.slug }}">
+                                                <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                                <span class="btn-text">Add to Cart</span>
+                                            </button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                {% endfor %}
+            </div>      
+
+       </div>  
+
+    </div>
+</div>
+<!--product area end-->
+
+<!-- shipping list -->
+{% include '../frontend/partials/shipping.html' %}
+<!-- shipping list end -->
+{% endblock %}

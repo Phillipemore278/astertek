@@ -80,9 +80,9 @@
                         <div class="col-lg-3">
                             <div class="single_product"> 
                                 <div class="product_thumb">
-                                     <a href="product-details.html"><img src="{{onsale_product.image.url}}" alt=""></a>
+                                     <a href="{% url 'store:product_detail' onsale_product.slug %}"><img src="{{onsale_product.image.url}}" alt=""></a>
                                      <div class="btn_quickview">
-                                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal_box"  title="Quick View"><i class="ion-ios-eye"></i></a>
+                                         <a href="{% url 'store:product_detail' onsale_product.slug %}"  title="Quick View"><i class="ion-ios-eye"></i></a>
                                     </div>
                                 </div> 
                                 <div class="product_content">   
@@ -97,7 +97,7 @@
                                             {% endfor %}
                                         </ul>
                                     </div>
-                                    <h3><a href="product-details.html">{{onsale_product.name|truncatechars:80}}</a></h3>
+                                    <h3><a href="{% url 'store:product_detail' onsale_product.slug %}">{{onsale_product.name|truncatechars:80}}</a></h3>
                                     <div class="product_price">
                                         <span class="current_price">&#8358;{{onsale_product.price|intcomma}}</span>
                                     </div>
@@ -133,9 +133,9 @@
                         <div class="col-lg-3">
                             <div class="single_product"> 
                                 <div class="product_thumb">
-                                     <a href="product-details.html"><img src="{{featured_product.image.url}}" alt=""></a>
+                                     <a href="{% url 'store:product_detail' featured_product.slug %}"><img src="{{featured_product.image.url}}" alt=""></a>
                                      <div class="btn_quickview">
-                                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal_box"  title="Quick View"><i class="ion-ios-eye"></i></a>
+                                         <a href="{% url 'store:product_detail' featured_product.slug %}" title="Quick View"><i class="ion-ios-eye"></i></a>
                                     </div>
                                 </div> 
                                 <div class="product_content">   
@@ -150,7 +150,7 @@
                                             {% endfor %}
                                         </ul>
                                     </div>
-                                    <h3><a href="product-details.html">{{featured_product.name|truncatechars:80}}</a></h3>
+                                    <h3><a href="{% url 'store:product_detail' featured_product.slug %}">{{featured_product.name|truncatechars:80}}</a></h3>
                                     <div class="product_price">
                                         <span class="current_price">&#8358;{{featured_product.price|intcomma}}</span>
                                     </div>

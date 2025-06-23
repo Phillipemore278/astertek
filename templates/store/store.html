@@ -84,9 +84,9 @@
                         <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="single_product"> 
                                 <div class="product_thumb">
-                                     <a href="product-details.html"><img src="{{product.image.url}}" alt=""></a>
+                                     <a href="{% url 'store:product_detail' product.slug %}"><img src="{{product.image.url}}" alt=""></a>
                                      <div class="btn_quickview">
-                                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal_box"  title="Quick View"><i class="ion-ios-eye"></i></a>
+                                         <a href="{% url 'store:product_detail' product.slug %}" title="Quick View"><i class="ion-ios-eye"></i></a>
                                     </div>
                                 </div> 
                                 <div class="product_content">   
@@ -101,7 +101,7 @@
                                             {% endfor %}
                                         </ul>
                                     </div>
-                                    <h3><a href="product-details.html">{{product.name|truncatechars:40}}</a></h3>
+                                    <h3><a href="{% url 'store:product_detail' product.slug %}">{{product.name|truncatechars:40}}</a></h3>
                                     <div class="product_price">
                                         <span class="current_price">&#8358;{{product.price|intcomma}}</span>
                                     </div>
@@ -133,9 +133,9 @@
                         <div class="row align-items-center">   
                             <div class="col-lg-3 col-md-5">
                                 <div class="product_thumb">
-                                     <a href="product-details.html"><img src="{{product.image.url}}" alt=""></a>
+                                     <a href="{% url 'store:product_detail' product.slug %}"><img src="{{product.image.url}}" alt=""></a>
                                      <div class="btn_quickview">
-                                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal_box"  title="Quick View"><i class="ion-ios-eye"></i></a>
+                                         <a href="{% url 'store:product_detail' product.slug %}" title="Quick View"><i class="ion-ios-eye"></i></a>
                                     </div>
                                 </div> 
                             </div>
@@ -152,7 +152,7 @@
                                             {% endfor %}
                                         </ul>
                                     </div>
-                                    <h3><a href="product-details.html">{{product.name}}</a></h3>
+                                    <h3><a href="{% url 'store:product_detail' product.slug %}">{{product.name}}</a></h3>
                                     <div class="product_price">
                                         <span class="current_price">>&#8358;{{product.price|intcomma}}</span>
                                     </div>
@@ -161,7 +161,16 @@
                                     </div>
                                     <div class="product_action">
                                         <ul>
-                                            <li class="product_cart"><a href="cart.html" title="Add to Cart">Add to Cart</a></li>
+                                            <li class="product_cart">
+                                                <form onsubmit="addToCart(event, this, '{{ product.slug }}')" class="d-inline">
+                                                    {% csrf_token %}
+                                                    <input type="number" name="quantity" value="1" min="1" style="width: 50px;">
+                                                    <button type="submit" class="btn btn-primary" data-product-slug="{{ product.slug }}">
+                                                        <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                                        <span class="btn-text">Add to Cart</span>
+                                                    </button>
+                                                </form>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

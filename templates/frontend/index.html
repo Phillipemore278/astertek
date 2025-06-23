@@ -206,7 +206,7 @@
                             <div class="countdown_produtc_wrapper">
                                 <div class="single_countdown_product">
                                     <div class="countdown_product_thumb">
-                                        <a href="product-details.html"><img src="{{product.image.url}}" alt="product_image"></a>
+                                        <a href="{% url 'store:product_detail' product.slug %}"><img src="{{product.image.url}}" alt="product_image"></a>
                                         <div class="sale_percent">
                                             {% if product.sale_percent > 0 %}
                                             <span>-{{ product.sale_percent }}%</span>
@@ -226,7 +226,7 @@
                                                 {% endfor %}
                                             </ul>
                                         </div>
-                                        <h3><a href="product-details.html">{{product.name}}</a></h3>
+                                        <h3><a href="{% url 'store:product_detail' product.slug %}">{{product.name}}</a></h3>
                                         <div class="countdown_product_price">
                                             <span class="old_price">&#8358;{{product.old_price|intcomma}}</span>
                                             <span class="current_price">&#8358;{{product.price|intcomma}}</span>
