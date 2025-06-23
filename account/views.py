@@ -1,6 +1,8 @@
 from django.contrib.auth import authenticate, login
 from django.shortcuts import redirect, render
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth import logout
 
 from .forms import CustomUserCreationForm
 
@@ -45,3 +47,18 @@ def custom_login_view(request):
 def auth_choice_view(request):
     next_url = request.GET.get('next', '/')
     return render(request, 'account/auth_choice.html', {'next': next_url})
+
+
+@login_required
+def dashboard(request):
+    context = {
+        'user': request.user,
+        # You can pass more data here later
+    }
+    return render(request, 'account/dashboard.html', context)
+
+
+def custom_logout_view(request):
+    logout(request)
+    messages.success(request, "You have been logged out successfully.")
+    return redirect('account:login') 
