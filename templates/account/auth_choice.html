@@ -1,9 +1,38 @@
-{% extends 'frontend/base.html' %}
+{% extends '../frontend/base.html' %}
+{% load static %}
+{% load humanize %}
+{% block title %}Account | Login Or Register {% endblock %}
+
 {% block content %}
-<div class="container mt-5 text-center">
+<!--breadcrumbs area start-->
+<div class="breadcrumbs_area commun_bread">
+  <div class="container">   
+      <div class="row">
+          <div class="col-12">
+              <div class="breadcrumb_content">
+                  <h3>Login Or Register</h3>
+                  <ul>
+                      <li><a href="{% url 'frontend:home' %}">home</a></li>
+                      <li><i class="fa fa-angle-right"></i></li>
+                      <li>Login Or Register</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>         
+</div>
+<!--breadcrumbs area end-->
+
+<div class="container mt-4 text-center mb-5">
   <h3>You need to log in or register to continue</h3>
   <p>To proceed to checkout, please log in or create an account.</p>
   <a href="{% url 'account:login' %}?next={{ next }}" class="btn btn-primary m-2">Login</a>
   <a href="{% url 'account:register' %}?next={{ next }}" class="btn btn-secondary m-2">Register</a>
 </div>
+
+
+<!-- shipping list -->
+{% include '../frontend/partials/shipping.html' %}
+<!-- shipping list end -->
+
 {% endblock %}

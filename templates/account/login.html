@@ -1,14 +1,64 @@
-<form method="post" action="">
-    {% csrf_token %}
+{% extends '../frontend/base.html' %}
+{% load static %}
+{% load humanize %}
+{% block title %}Account | Login{% endblock %}
 
-    <!-- Username and password fields -->
-    <input type="text" name="username" required>
-    <input type="password" name="password" required>
+{% block content %}
+  <!--breadcrumbs area start-->
+  <div class="breadcrumbs_area commun_bread">
+    <div class="container">   
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumb_content">
+                    <h3>Login</h3>
+                    <ul>
+                        <li><a href="{% url 'frontend:home' %}">home</a></li>
+                        <li><i class="fa fa-angle-right"></i></li>
+                        <li>Login</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>         
+  </div>
+  <!--breadcrumbs area end-->
 
-    <!-- Preserve the 'next' URL -->
-    {% if next %}
-      <input type="hidden" name="next" value="{{ next }}">
-    {% endif %}
+  <div class="container">
+    <div class="row container mt-4 justify-content-center align-items-center mb-5">
 
-    <button type="submit">Log in</button>
-</form>
+      <div class="col-md-5">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h4 class="text-center mb-5 mt-3">Login</h4>
+            <form method="post" action="">
+              {% csrf_token %}
+          
+              <!-- Username and password fields -->
+              <div class="mb-3">
+                <input type="text" name="username" class="form-control" placeholder="Enter Username" required>
+              </div>
+              <div class="mb-3">
+                <input type="password" name="password" class="form-control" placeholder="Enter Password" required>
+              </div>
+              <!-- Preserve the 'next' URL -->
+              {% if next %}
+                <input type="hidden" name="next" value="{{ next }}">
+              {% endif %}
+          
+              <button type="submit" class="btn btn-secondary w-100">Log in</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- shipping list -->
+  {% include '../frontend/partials/shipping.html' %}
+  <!-- shipping list end -->
+
+{% endblock %}
+
+
+

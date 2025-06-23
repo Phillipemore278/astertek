@@ -1,10 +1,73 @@
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
+{% extends '../frontend/base.html' %}
+{% load static %}
+{% load humanize %}
+{% block title %}Account | Register{% endblock %}
 
-    {% if next %}
-      <input type="hidden" name="next" value="{{ next }}">
-    {% endif %}
+{% block content %}
+<style>
+  form label {
+    color: white !important;
+}
+</style>
+  <!--breadcrumbs area start-->
+  <div class="breadcrumbs_area commun_bread">
+    <div class="container">   
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumb_content">
+                    <h3>Register</h3>
+                    <ul>
+                        <li><a href="{% url 'frontend:home' %}">home</a></li>
+                        <li><i class="fa fa-angle-right"></i></li>
+                        <li>Register</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>         
+  </div>
+  <!--breadcrumbs area end-->
 
-    <button type="submit">Register</button>
-</form>
+
+  <div class="container">
+    <div class="row container mt-4 justify-content-center align-items-center mb-5">
+
+      <div class="col-md-5">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h4 class="text-center mb-3 mt-3">Register</h4>
+            <form method="post">
+              {% csrf_token %}
+              {% for field in form %}
+                <div class="form-group">
+                    {{ field.label_tag }}  <!-- Optional: shows the label -->
+                    {{ field }}  <!-- Renders the field with widget attrs -->
+                    {% if field.errors %}
+                        <div class="text-danger">
+                            {{ field.errors }}
+                        </div>
+                    {% endif %}
+                </div>
+              {% endfor %}
+          
+              {% if next %}
+                <input type="hidden" name="next" value="{{ next }}">
+              {% endif %}
+          
+              <button type="submit" class="btn btn-secondary w-100">Register</button>
+          </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- shipping list -->
+  {% include '../frontend/partials/shipping.html' %}
+  <!-- shipping list end -->
+
+{% endblock %}
